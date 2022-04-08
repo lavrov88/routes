@@ -15,7 +15,8 @@
     "react-leaflet": "^3.2.5",
     "react-redux": "^7.2.3",
     "react-scripts": "5.0.0",
-    "react-split": "^2.0.14"
+    "react-split": "^2.0.14",
+    "redux-thunk": "^2.4.1"
   },
   "scripts": {
     "start": "react-scripts start",

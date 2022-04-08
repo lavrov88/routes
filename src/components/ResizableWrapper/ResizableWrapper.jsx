@@ -4,7 +4,7 @@ import "./ResizableWrapper.css"
 import RoutesList from "../RoutesList/RoutesList";
 import MapComponent from "../Map/Map";
 
-const ResizableWrapper = () => {
+const ResizableWrapper = ({ state, dispatch }) => {
   return (
     <Split
       sizes={[30, 70]}
@@ -13,8 +13,8 @@ const ResizableWrapper = () => {
       cursor="col-resize"
       className="split-flex" // You'll need to define this. check styles.css
     >
-      <RoutesList />
-      <MapComponent />
+      <RoutesList routesData={state.routesData} dispatch={dispatch} />
+      <MapComponent map={state.map} dispatch={dispatch} />
     </Split>
   );
 }
