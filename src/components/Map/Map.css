@@ -1,0 +1,17 @@
+/* @import url("~leaflet/dist/leaflet.css"); */
+
+.map_wrapper {
+  height: 100%;
+  width: 100%;
+  background-color: green;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.leaflet-container {
+  height: 100%;
+}
