@@ -7,7 +7,7 @@ L.Marker.prototype.options.icon = L.icon({
   iconUrl: "https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png"
 })
 
-export default function Routing({ startPoint, endPoint }) {
+const Routing = ({ startPoint, endPoint }) => {
   const map = useMap();
 
   useEffect(() => {
@@ -23,3 +23,5 @@ export default function Routing({ startPoint, endPoint }) {
 
   return null
 }
+
+export default Routing
