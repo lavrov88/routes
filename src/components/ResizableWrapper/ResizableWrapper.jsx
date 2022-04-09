@@ -1,8 +1,8 @@
-import React from "react";
+import React from "react"
 import Split from "react-split"
 import "./ResizableWrapper.css"
-import RoutesList from "../RoutesList/RoutesList";
-import MapComponent from "../Map/Map";
+import RoutesList from "../RoutesList/RoutesList"
+import MapComponent from "../Map/Map"
 
 const ResizableWrapper = ({ state, dispatch }) => {
   return (

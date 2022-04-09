@@ -1,6 +1,6 @@
-import { Select } from 'antd';
-import React from 'react';
-import { changeRouteEndPoint, changeRouteStartPoint } from '../../../redux/actions/routesActions';
+import { Select } from 'antd'
+import React from 'react'
+import { changeRouteEndPoint, changeRouteStartPoint } from '../../../redux/actions/routesActions'
 import './RoutesListItem.css'
 
 const RoutesListItem = ({ id, isActive, startPoint, endPoint, points, dispatch }) => {
@@ -46,7 +46,7 @@ const RoutesListItem = ({ id, isActive, startPoint, endPoint, points, dispatch }
           </Select>}
       </div>
     </div>
-  );
+  )
 }
 
-export default RoutesListItem;
+export default RoutesListItem

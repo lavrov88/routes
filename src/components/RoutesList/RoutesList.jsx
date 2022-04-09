@@ -49,7 +49,7 @@ const RoutesList = ({ routesData, dispatch }) => {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 
