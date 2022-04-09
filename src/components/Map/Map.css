@@ -1,9 +1,7 @@
-/* @import url("~leaflet/dist/leaflet.css"); */
-
 .map_wrapper {
   height: 100%;
   width: 100%;
-  background-color: green;
+  background-color: #ccc;
 }
 
 .map {
@@ -14,4 +12,8 @@
 
 .leaflet-container {
   height: 100%;
+}
+
+.leaflet-routing-container {
+  display: none;
 }

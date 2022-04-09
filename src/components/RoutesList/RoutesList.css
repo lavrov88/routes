@@ -1,5 +1,35 @@
 .routes_list_wrapper {
+  max-height: calc(100vh - 40px - 44px);
   height: 100%;
   width: 100%;
-  background-color: #e4e4e4;
+  overflow: auto;
+
+  background-color: #fff;
+}
+
+.routes_list {
+  min-width: 400px;
+}
+
+.routes_list_title {
+  max-height: 44px;
+}
+
+.routes_list_title h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.routes_list_header {
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #f1f1f1;
+}
+
+.routes_list_header h5 {
+  margin-top: 0.5rem;
 }

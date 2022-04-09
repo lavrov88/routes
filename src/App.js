@@ -11,7 +11,6 @@ function App() {
       map: state.map
     }
   })
-  console.log(state)
 
   return (
     <div className="App">
@@ -20,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

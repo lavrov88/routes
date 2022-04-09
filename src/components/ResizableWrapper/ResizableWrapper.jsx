@@ -7,14 +7,14 @@ import MapComponent from "../Map/Map";
 const ResizableWrapper = ({ state, dispatch }) => {
   return (
     <Split
-      sizes={[30, 70]}
-      minSize={200}
+      sizes={[40, 60]}
+      minSize={150}
       direction="horizontal"
       cursor="col-resize"
-      className="split-flex" // You'll need to define this. check styles.css
+      className="split-flex"
     >
       <RoutesList routesData={state.routesData} dispatch={dispatch} />
-      <MapComponent map={state.map} dispatch={dispatch} />
+      <MapComponent routesData={state.routesData} />
     </Split>
   );
 }

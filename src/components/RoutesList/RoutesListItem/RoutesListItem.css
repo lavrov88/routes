@@ -1,0 +1,13 @@
+.route_list_item {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.route_list_item_point {
+  width: 50%;
+  min-width: 200px;
+  text-align: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
